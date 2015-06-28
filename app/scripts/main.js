@@ -13,5 +13,5 @@ require.config({
 require([
     'core/controller/MainController'
 ], function () {
-    console.log('Done');
+
 });

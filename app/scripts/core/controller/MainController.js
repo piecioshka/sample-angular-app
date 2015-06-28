@@ -3,7 +3,7 @@ define([
 ], function (app) {
     'use strict';
 
-    app.controller('MainController', function MainController($scope) {
-        $scope.foo = 'bar';
+    app.controller('MainController', function ($scope) {
+        $scope.author = '@piecioshka';
     });
 });

@@ -1,12 +1,9 @@
 define([
-    'angular'
-], function (angular) {
+    'app'
+], function (app) {
     'use strict';
 
-    function MainController($scope) {
+    app.controller('MainController', function MainController($scope) {
         $scope.foo = 'bar';
-    }
-
-    angular.module('app', [])
-        .controller('MainController', ['$scope', MainController]);
+    });
 });

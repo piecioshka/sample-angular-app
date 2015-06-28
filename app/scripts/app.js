@@ -1,5 +1,7 @@
 define([
-    'core/controller/MainController'
-], function () {
-    // ekhm....
+    'angular'
+], function (angular) {
+    'use strict';
+
+    return angular.module('sampleApp', []);
 });

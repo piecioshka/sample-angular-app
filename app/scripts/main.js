@@ -7,7 +7,11 @@ require.config({
         angular: {
             exports: 'angular'
         }
-    },
+    }
+});
 
-    deps: ['app']
+require([
+    'core/controller/MainController'
+], function () {
+    console.log('Done');
 });

@@ -8,28 +8,32 @@ Demonstracja jak łatwo można stworzyć w pełni działającą aplikację SPA.
 ```
 .
 ├── README.md
-└── app
-    ├── index.html
-    └── scripts
-        ├── app.js
-        ├── core
-        │   ├── controller
-        │   │   └── MainController.js
-        │   ├── directive
-        │   └── filter
-        ├── main.js
-        └── vendor
-            ├── angular
-            │   └── angular.js
-            ├── jquery
-            │   └── jquery.js
-            ├── require
-            │   ├── require.js
-            │   └── text.js
-            └── underscore
-                └── underscore.js
+├── app
+│   ├── index.html
+│   └── scripts
+│       ├── core
+│       │   ├── controller
+│       │   │   └── MainController.js
+│       │   └── views
+│       │       ├── about.html
+│       │       ├── contact.html
+│       │       └── home.html
+│       ├── main.js
+│       ├── modules
+│       │   └── simpleAngularApp.js
+│       └── vendor
+│           ├── angular
+│           │   └── angular.js
+│           ├── jquery
+│           │   └── jquery.js
+│           ├── require
+│           │   ├── require.js
+│           │   └── text.js
+│           └── underscore
+│               └── underscore.js
+└── package.json
 
-11 directories, 10 files
+11 directories, 14 files
 ```
 
 ## Biblioteki

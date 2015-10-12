@@ -1,11 +1,11 @@
 # Prosta aplikacja z użyciem Angular
 
-Przykładowa aplikacja w stylu: Single Page Application.
+Przykładowa aplikacja w stylu: Single Page Application.<br />
 Demonstracja jak łatwo można stworzyć w pełni działającą aplikację SPA.
 
 ## Budowa aplikacji
 
-<pre>
+```
 .
 ├── README.md
 └── app
@@ -30,7 +30,7 @@ Demonstracja jak łatwo można stworzyć w pełni działającą aplikację SPA.
                 └── underscore.js
 
 11 directories, 10 files
-</pre>
+```
 
 ## Biblioteki
 

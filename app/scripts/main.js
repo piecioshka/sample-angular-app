@@ -1,17 +1,19 @@
-require.config({
-    paths: {
-        angular: 'vendor/angular/angular'
-    },
+(function () {
+    'use strict';
 
-    shim: {
-        angular: {
-            exports: 'angular'
+    require.config({
+        paths: {
+            angular: 'vendor/angular/angular'
+        },
+
+        shim: {
+            angular: {
+                exports: 'angular'
+            }
         }
-    }
-});
+    });
 
-require([
-    'core/controller/MainController'
-], function () {
-
-});
+    require([
+        'core/controller/MainController'
+    ]);
+}());

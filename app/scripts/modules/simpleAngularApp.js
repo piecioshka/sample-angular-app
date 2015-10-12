@@ -3,5 +3,5 @@ define([
 ], function (angular) {
     'use strict';
 
-    return angular.module('sampleApp', []);
+    return angular.module('simpleAngularApp', []);
 });

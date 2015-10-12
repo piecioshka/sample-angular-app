@@ -1,7 +1,7 @@
-define([
-    'modules/simpleAngularApp'
-], function (simpleAngularAppModule) {
+define(function (require) {
     'use strict';
+
+    var simpleAngularAppModule = require('../module');
 
     /**
      * Master controller.
@@ -10,7 +10,7 @@ define([
      * @constructor
      */
     function MainController($scope) {
-        $scope.author = '@piecioshka';
+        $scope.projectTitle = 'Simple Angular.js app';
     }
 
     MainController.$inject = ['$scope'];

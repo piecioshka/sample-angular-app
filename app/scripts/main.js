@@ -1,19 +1,21 @@
-(function () {
-    'use strict';
+require.config({
+    paths: {
+        domReady: 'vendor/require/domReady',
+        angular: 'vendor/angular/angular',
+        uiRouter: 'vendor/angular/angular-ui-router'
+    },
 
-    require.config({
-        paths: {
-            angular: 'vendor/angular/angular'
+    shim: {
+        angular: {
+            exports: 'angular'
         },
 
-        shim: {
-            angular: {
-                exports: 'angular'
-            }
+        uiRouter: {
+            deps: ['angular']
         }
-    });
+    },
 
-    require([
-        'core/controller/MainController'
-    ]);
-}());
+    deps: [
+        './bootstrap'
+    ]
+});

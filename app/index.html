@@ -1,13 +1,23 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="simpleAngularApp">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Simple AngularJS Application</title>
 </head>
 <body>
     <div ng-controller="MainController">
-        <h1 ng-bind="author"></h1>
+        <h1 ng-bind="projectTitle"></h1>
     </div>
+
+    <nav>
+        <ul>
+            <li><a ui-sref="home">Home</a></li>
+            <li><a ui-sref="about">About</a></li>
+            <li><a ui-sref="contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div ui-view></div>
 
     <script src="scripts/vendor/require/require.js" data-main="scripts/main.js"></script>
 </body>

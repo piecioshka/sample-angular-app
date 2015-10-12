@@ -11,39 +11,31 @@ Demonstracja jak łatwo można stworzyć w pełni działającą aplikację SPA.
 ├── app
 │   ├── index.html
 │   └── scripts
-│       ├── core
-│       │   ├── controller
-│       │   │   └── MainController.js
-│       │   └── views
-│       │       ├── about.html
-│       │       ├── contact.html
-│       │       └── home.html
+│       ├── bootstrap.js
 │       ├── main.js
 │       ├── modules
-│       │   └── simpleAngularApp.js
+│       │   └── simpleAngularApp
+│       │       ├── controller
+│       │       │   └── MainController.js
+│       │       ├── index.js
+│       │       ├── module.js
+│       │       └── views
+│       │           ├── about.html
+│       │           ├── contact.html
+│       │           └── home.html
 │       └── vendor
 │           ├── angular
+│           │   ├── angular-ui-router.js
 │           │   └── angular.js
-│           ├── jquery
-│           │   └── jquery.js
-│           ├── require
-│           │   ├── require.js
-│           │   └── text.js
-│           └── underscore
-│               └── underscore.js
+│           └── require
+│               ├── domReady.js
+│               └── require.js
 └── package.json
 
-11 directories, 14 files
+9 directories, 15 files
 ```
 
 ## Biblioteki
 
-* [Angular.js][1]
-* [jQuery.js][2]
-* [Require.js][3]
-* [Underscore.js][4]
-
-[1]: https://angularjs.org/
-[2]: http://jquery.com/
-[3]: http://requirejs.org/
-[4]: http://underscorejs.org/
+* [Angular.js](https://angularjs.org/)
+* [Require.js](http://requirejs.org/)
